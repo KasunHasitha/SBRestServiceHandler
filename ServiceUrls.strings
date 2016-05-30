@@ -1,0 +1,28 @@
+/* 
+  ServiceUrls.strings
+  My Health
+
+  Created by KASUN HASITHA on 4/8/16.
+  Copyright (c) 2016 IDEAHUB. All rights reserved.
+*/
+
+
+//URLs.strings
+
+//************* server************
+"WebService" = "http://52.5.11.140:5459/";
+"fileUploadService" = "http://52.5.11.140:8877/";
+
+//imageUrl
+"imageUrl" = "http://axipay-qa.skyfluid.com:2238/";
+
+
+
+//************* other ****************
+
+"login" = "api/Patient/PatientSignIn";
+"getProfile" = "api/Patient/PatientProfile";
+"uploadImage"= "api/DiagnosticsTest/ScanAndSaveReportDataEncodedFile";
+"getScanResults"= "api/DiagnosticsTest/GetAutoScanResults";
+"submitScanResults"= "api/DiagnosticsTest/FinalizeAndSaveAutoScanResults";
+
